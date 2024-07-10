@@ -3979,16 +3979,10 @@ body .search-modal .close:hover {
   top: 2px;
   transform: rotate(26deg);
 }
-.rs-breadcrumbs.img1 {
-  background: url(assets/images/1.jpg);
-  background-position: center top;
-}
 .rs-breadcrumbs.img2 {
   background: url(assets/images/2.jpg);
 }
-.rs-breadcrumbs.img3 {
-  background-image: url('assets/images/3.jpg');
-}
+
 .rs-breadcrumbs.img4 {
   background: url(assets/images/4.jpg);
 }
@@ -6602,10 +6596,12 @@ body .search-modal .close:hover {
 .rs-process.style2 .addon-process .process-wrap .process-img img {
   width: 100%;
   height: auto;
+  border-radius: 30% !important;
 }
 .rs-process.style2 .addon-process .process-wrap .process-text {
   text-align: center;
   padding: 15px 0 0;
+  margin-bottom: 40px;
 }
 .rs-process.style2 .addon-process .process-wrap .process-text .title {
   font-size: 24px;
