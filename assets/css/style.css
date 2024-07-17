@@ -1430,7 +1430,7 @@ blockquote cite:before {
   line-height: 70px;
   border-radius: 100%;
   text-align: center;
-  background: #ffffff;
+  background: #00005B;
 }
 .address-item .address-icon i {
   text-align: center;
@@ -1457,7 +1457,7 @@ blockquote cite:before {
   height: 70px;
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
-  background: #ffffff;
+  background: #0346ff;
 }
 .tab-videos .popup-videos {
   color: #de5022;
