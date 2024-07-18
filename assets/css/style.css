@@ -10364,6 +10364,7 @@ body .search-modal .close:hover {
 /* -----------------------
     36. Error Page CSS
 --------------------------*/
+/* Error Page CSS */
 .page-error {
   background: url(assets/images/bg/error.jpg);
   background-repeat: no-repeat !important;
@@ -10371,6 +10372,7 @@ body .search-modal .close:hover {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100vh;
 }
@@ -10378,8 +10380,10 @@ body .search-modal .close:hover {
   position: relative;
   background: #cfd0ef;
   width: 650px;
+  max-width: 90%;
   padding: 50px;
   height: 650px;
+  max-height: 90vh;
   border-radius: 50%;
   margin: 0 auto;
   text-align: center;
@@ -10405,6 +10409,69 @@ body .search-modal .close:hover {
   color: #101010;
   display: block;
   padding-bottom: 70px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .page-error .error-not-found {
+    width: 550px;
+    height: 550px;
+  }
+  .page-error .error-not-found .title span {
+    font-size: 200px;
+    line-height: 140px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-error .error-not-found {
+    width: 450px;
+    height: 450px;
+  }
+  .page-error .error-not-found .title {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .page-error .error-not-found .title span {
+    font-size: 150px;
+    line-height: 100px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-error .error-not-found {
+    width: 350px;
+    height: 350px;
+  }
+  .page-error .error-not-found .title {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .page-error .error-not-found .title span {
+    font-size: 120px;
+    line-height: 80px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-error .error-not-found {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+  }
+  .page-error .error-not-found .title {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .page-error .error-not-found .title span {
+    font-size: 100px;
+    line-height: 70px;
+    padding-bottom: 20px;
+  }
 }
 /* -----------------------
     37. Scroll Up CSS
