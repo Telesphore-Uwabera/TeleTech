@@ -6535,7 +6535,7 @@ body .search-modal .close:hover {
   line-height: 34px;
   font-weight: 600;
   color: #101010;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .rs-process .rs-addon-number .number-text .number-txt {
   margin: 0;
