@@ -10873,6 +10873,6 @@ body .search-modal .close:hover {
   border-radius: 50%;
   border: 2px solid #000;
   display: block;
-  width: 70px;
+  width: auto;
   height: auto;
 }
